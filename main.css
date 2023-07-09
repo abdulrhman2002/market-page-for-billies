@@ -45,7 +45,12 @@
     max-height:auto;
     min-width: 300px;
 }
-
+.btn:hover{
+   color:red;
+}
+.btn:active{
+    transform: scale(0.96);
+}
 /*start footer*/
 footer{
     background-color: transparent;
