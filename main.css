@@ -1,0 +1,55 @@
+/* start navbar */
+.navbar .navbar-toggler{
+    border-color: transparent;
+    cursor: pointer;
+    font-family: 'Bitter', serif;
+    text-shadow: 1px 1px 3px #000;
+}
+.navbar .navbar-toggler:hover{
+    color: red;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+    background-color: #000000;
+}
+@media(max-width: 991px){
+  .ul-bg{
+    background-color: hsla(0, 0%, 0%, 0.833);
+    border-radius: 20px;
+    border-color: white;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 25px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    overflow: visible;
+    font-size: 12px;
+    text-align: center;
+    object-fit: fill;
+  }
+}
+/* end navbar*/
+/*start landing*/
+.landing{
+    position: relative;
+    background-color:transparent;
+    font-family: 'Bitter', serif;
+    text-shadow: 1px 1px 3px #000;
+}
+.card{
+    font-family: 'Bitter', serif;
+    background-color:rgba(0, 0, 0, 0.551);
+    border-color: white;
+    border-radius: 25px;
+    max-width: 300px;
+    max-height:auto;
+    min-width: 300px;
+}
+
+/*start footer*/
+footer{
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+/*end footer*/
